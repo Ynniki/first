@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .head{
+            background-image: url(./image1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+        }
+        .head-flex{
+            display: flex;
+            margin: 0 155px;
+        }
+        .image_1{
+            width: 300px;
+        }
+        .text_1{
+        border: 2px solid white;
+        display: inline-block;
+        padding: 10px 10px;
+        border-radius: 13px;
+        color: #fff;
+        }
+        .div_1{
+        width: 265px;
+        font-size: 1.6rem;
+        color: #fff;
+        }
+        .span{
+        color: rgb(172, 170, 70);
+        }
+        .btn_1{
+        width: 190px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid rgb(172, 170, 70);
+        color: white;
+        background-color: rgb(172, 170, 70);
+        }
+        .btn_1:hover{
+            opacity: 0.5;
+        }
+        .image_2{
+        width: 20px;
+        margin: -3px 8px;
+        }
+        .head-flex_2{
+            margin: 0 480px;
+        }
+        .head-flex_2 p{
+            border: 1px solid #fff;
+            background-color: #fff;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 15px;
+        }
+        .head-flex_2 img{
+            margin: 0px 6px -3px -8px;
+        }
+        .head-flex_3{
+            color: #fff;
+        }
+        .main-flex_1{
+            display:  flex;
+            margin: 170px 370px;
+        }
+        .div_special{
+            margin: 0 200px;
+        }
+        .div_2{
+            width: 200px;
+        }
+        .text_2{
+            width: 200px;
+        }
+        .div_3 img{
+            border: 1px solid black;
+            padding: 0 10px;
+            border-radius: 10px;
+        }
+        .div_4{
+            background: radial-gradient(rgb(172, 170, 70) -44px,  #fff 144px);
+            display: flex;
+        }
+        .div_5 img{
+            width: 200px;
+            border-radius: 15px;
+            margin: 80px 15px;
+        }
+        .div_6 img{
+            width: 200px;   
+            border-radius: 15px;
+        }
+        .div_6 div{
+            margin: 10px 0;
+        }
+        .box-flex_1{
+            display: flex;
+            margin: -100px 300px;
+        }
+        .div_7{
+            width: 200px;
+            font-size: 1.7rem;
+        }
+        .box-flex_1 p{
+            width: 230px;
+            margin: 25px 0;
+        }
+        .div_8{
+            margin: 25px 100px;
+        }
+        .select_2{
+            margin: 100px 0;
+        }
+        .box-flex_2{
+            display: flex;
+        }
+        .box-flex_2 {
+            color: #fff;
+            margin: 140px 290px;
+        }
+        .box-flex_2 img{
+            width: 300px;
+        } 
+        .box-flex_2_2{
+            position: absolute;
+            width: 135px;
+            margin: 230px 8px;
+        }   
+        .div_9{
+            margin: 2px 40px;
+        }
+        .div_9 img{
+            width: 311px;
+        }
+        .box-flex_2_3{
+            position: absolute;
+            width: 135px;
+            margin: 285px 8px;
+        }
+        .div_10 img{
+            width: 311px;
+        }
+        .box-flex_2_4{
+            position: absolute;
+            width: 135px;
+            margin: 290px 8px;
+            width: 100px; 
+        }
+        .div_11{
+            margin: 0 40px;
+        }
+        .div_11 img{
+            width: 277px;
+        }
+        .box-flex_2_5{
+            position: absolute;
+            width: 135px;
+            margin: 295px 8px;
+        }
+        .box-flex_2 img:hover{
+            opacity: 0.6;
+        }
+        .div_13{ 
+            width: 140px;
+            font-size: 2rem;
+        }
+        .box-flex_3{
+            display: flex;
+            margin: 0 685px;
+        }
+        .div_16{
+            color: #fff;
+            background-color: rgb(172, 170, 70);
+            margin: 42px 120px;
+            width: 250px;
+            height: 270px;
+            border-radius: 15px
+        }
+        .div_16 p{
+            text-align: center;
+            font-size: 0.8rem;
+            width: 200px;
+            margin: -10px 25px;
+        }
+        .div_16 h3{
+            text-align: center;
+        }
+        .input_1{
+        margin: 30px 26px;
+        padding: 11px 7px;
+        border-radius: 10px;
+        border: 1px solid rgb(172, 170, 70);
+        }
+        .input_2{
+        margin: -10px 26px;
+        padding: 11px 7px;
+        border-radius: 10px;
+        border: 1px solid rgb(172, 170, 70);
+        }
+        .btn_2{
+        width: 190px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid rgb(172, 170, 70);
+        color: rgb(172, 170, 70);
+        background-color: white;
+        margin: 22px 25px;
+        }
+        .btn_2:hover{
+            opacity: 0.5;
+        }
+        .div_14{
+            text-align: center;
+        }
+        .div_15{
+            text-align: center;
+        }
+        .flex-master{
+            display: flex;
+            margin: 30px 235px;
+        }
+        .div_17{
+            margin: 45px 290px;
+            color: rgb(172, 170, 70);
+        }
+        .div_18{
+             margin: 45px 0;
+             color: rgb(172, 170, 70);
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="head-flex">
+            <div class="head-flex_1">
+                <div>
+                    <img class="image_1" src="./logo.jpg" alt="No Picture">
+                </div>
+                <div>
+                    <p class="text_1">Гостевые домики</p>
+                </div>
+                <div class="div_1">
+                    <h1>Будь ближе к природе вместе с комплексом <spam class="span">ЗАГОРОДОМ</spam></h1>
+                </div>
+                <div>
+                    <button class="btn_1">Забронировать домик<img class="image_2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABd0lEQVRYhe2Vvy9DURiG3zYhdGgiUrSjyWI1sVmMJqPEarEYJBaLf8IfYGUz6ICGWAjV+LEZDBKkojRNw2PwldOb2xrcczvou5yc7/vued5zzpdzpa66ikhAGpgHNoEz4BF4plkHvuCzwD2/6z34bSIC+JSkvKQeSfuStiQVJd1JqllZVlJBUj2RSPT+lRk0sGu7W2pTM2o11UjhtnjZFk+1qRmzmkowl4zAw4uNkwbrB8YDNX02liPgNQtYtd29AjvAnc0nnJoZix35MJAE1oGq0+1PwIBTs2zxjcgNGGAIKDkG8oH8nsXnfMGLBrgAKnYd00AKWLTcA5D2CS/afC3kAfoAFrzDLZ4EVoBbO4njyI8eyADnBr8ERiIFdOEdhwM5vv7pYfpuOJ/wqxZwfMOH+XnRToFBJwdAR+BxGWg0mKuC5TJxGDhsdedOQxa8GQgxVDdo42RKXhswxEDNOYVrIBsb3Ay8GfwGyMUKNwPbwElH4P9KnzCvvyPVZ6lNAAAAAElFTkSuQmCC"></button>
+                </div>
+            </div>
+            <div class="head-flex_2">
+                <div>
+                    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABnElEQVQ4jcWTvY4TMRSFj31tZz0a2Uo1UpSfGUsu0qUJJE2oGKFUqShWQhokiuQxkChoeQgegYbdR2BTrBAIKRU1K6Hd1S5EZIaCmJ39CQVC4rbnu9f32MfAvy7n3EJrvSKiNWOsJKK11nrlvZ//sbEoij1jzJIxtrHWHvT7/WdKqRMAlVLqhDFWGmOWRVHs3TnAGLMEUHHOy0ajce6c24+i6JiILieTSdZut18DqIwxR3euDaACUMVxvByNRo/zPL+fpunzPM8zAJBSngXmlh2t9SqIUsqvAEqt9aegZ1n2hDG2CcyWvyoiWgdxC3xO0/QpACwWiyYRXdb1LX9VjLESQCWEOIvj+H1d63Q6L+rNAKotf32DJEk+9nq9g+l0+rCuKaW+3BxwawOt9cpa+3Y8Hj8QQnwXQlwMh8NHANBqtV5GUfThhsXrd+C9n3POfwwGgwERfQtgkiSvAiOlPMWuVwB+5UAIcdpsNo+DT+fcftCttYfYlQPgdxKPwindbvfNbDa7572fW2sPOecbY8y7nUms2/mrv/Df6ifKDIKD2kczaAAAAABJRU5ErkJggg==">Лендинговая 34</p>
+                </div>
+            </div>
+            <div class="head-flex_3">
+                <div class="head-flex_3_1">
+                    <p>+000000000<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAA70lEQVQ4jcXRPysFYBTH8R/5EwuFLCYWFlkYvIBb3oDCbpLJbDF6DwqDkukO/pRSKCUvwSL/NhlkUh/Lc0ty3UvJbznn6Tzfc37PeZK/FqZwimccYqRZsAVreMA8+rCMO4w2gtuxjRMMfKrto1o7t30BdyfZTfKWZCbJJHaTbCUZT9KfpFJvcgeOsIk2rOAei7jFJXrrwa3YwV6BN3CFoVIfrguXC+s4RidWcYaub5f1AZ4uFntQwQ0Gm4JLg3PMlvwCC03DBXqt2cUSrmtvb6TWEq+SzJV8JMlTkpefOBjDI6rfflWDJhM4+BX8r3oHZyjzgfj3qG0AAAAASUVORK5CYII="></p>
+                </div>
+                <div class="head-flex_3_2">
+                    <p>000@gmail.com<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAv0lEQVQ4jc3PLU5DURDF8fMaPnwTBApTh2EB9chuoYtgAQiCAMVGKrE4HApdRyDpCngV/Cp6Gx7w2lxcT3JzM3Pm/CeT7IVwi1a9Wtx0AS3mGFcsG5fZz24TLvGGBxz3BA9xjXdM4Aeg/CeY4RUXHf8cL3jEaTeTP8W6nmKBq/IWmP6a2Q4ovTM84RmjHn83oPQHGGzxJMlBn7lR0zRfu/wk6aX/RxvAEsPaUJltk+8T7pN84KiSsUxyV7twz7UChXrjxzqilGMAAAAASUVORK5CYII="></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="select_1">
+            <div class="main-flex_1">
+                <div class="div_special">
+                    <div class="div_2">
+                        <h2>Уют в любое <span class="span">время года</span></h2>
+                    </div>
+                    <div class="div_3">
+                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAACnklEQVRYhe2VP09TURyGn3PulUZANxkNTip/9APoJFj+yKCk1MjAQAjIwCZx8BM4EAcwISY4EcTa1EEEU8DNmJg4gZrIgjqpEFCBFOk9P4e2eim39LaIi7xLm9Nz+jw5vb+3cJD/PSrfhmi0oVoc6VKKi0AlULYH3otQOH7evWDn2hmJtJVoVgcw0qsU1h6g7pzLXvAUSMG/PQVVDyRADRkYSyTkTUdHfL0YcjQSFK91TwHN6kAa/slgLoXDM3PFQP1EZy9Eow3VoHqBxH7DPQXEkS7AEmF4v+GeAkpJEECLHttvuKcAqOMAjk68+xcCXg9h3m7ITiTSdEzj3Lcc3Xfl2rPFQs563IB8SL0GqgqAzwItjmUGC4F7Coio2fQH7T7hz4FaYM5gde5dQFnDgAG5Ho02nsl1MBYLVqThNcC8waoLh6e+7lkgHJ56C2oQCGDMhJdELBasMElmXfALxcAhRxOWluub62vOSQWNGPPq0cPgPS1mzNHJedsuKXXDtU1dqLU4OHg+hNDcPLVZVm5dFpEB4JBS9InWLzUlP0ySz254a2v8S7HwnAIZibar0zfQciolot5vO/gX4LsKZBIKTS+Ism+DbLrXk8mfG34ho6NNR9Nvvxcs4JrzWmDuz0346wmAw/ZWZu/HggQ85rwOmEgfzNsTmRil03tV3LdAzjnXxldP/P6e8YazStENOAY94ktgtzkPhaYXROQOu/SEG260TAABUEOpjtmeHT3gp2TKjti3NtacKqApuycALGPXGKXbjZLuFJyZ5ZWlfi/JHf980UjwCdBCnjmfnGwKbKyZ2yB95P4pk6DuLq8s9ff0vN7yJfD4QWNl0nKGLFt1+pnz2Hj9aaOtHpA64AQgwCKouEGPeF37QQ7izi8gkDIUGv5pxwAAAABJRU5ErkJggg==">
+                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADIUlEQVRYhe2Wz2sbRxTHP/N2jdODKZgSQ1JMo0MOxreWhlBCcCRk5weWI7lDe00oOecvyTmU5NowsRQrpKmztmuICsGkuZkcenB/QA0NpYf6EKvSzvSwu+5qa7krkVBo873NzHfmfd97894M/N+h8hLvfTH3XujZGxZ1VetHv6XXjJkdF9wtL5Trlz9d+WEQAZKXGHr2JrAguIfN5vxYMt9szo8J7iGwEHMGgp+XaOleEfzHwKlOe69pzOmL8G7Yaf9+FzgF/GSxnw0qIHcKAOr1UsGG0lJwDHgQT19ysCOePVOrrW2/MgFLpuwAFnXQw2ncKZ4MxXusYCI6QP0aIme1/up5nv1Z5L4DCaqfrH/n4GIyDnFzWeOvBUum7BKv8ozzYuAIvGrsV0Fc5zct3Staf/1zMp/1qtEoH61WgxfZOdvt5adzb8y544J/2wvlWrZP7Ecg9OwNoCz4rXq9VOin2HZZbzTKRzPG1/vx6/VSQfBbQDm20YN9ARZ1FdgETthQWsacn0o8WdSBEp8JYAuYtl2+TQl6CkwDW+IzkfAjz89P2VBawAlgM7bRg54SaTbnxzrtvSYwE5WXm9M6eJbx9ikw2XuM+1F89WE6NcaU3/dQKw73DrAxMnqkUqnc3z1UQLTx9FvCmAEuZdd6TCo+EuuUU+qbw3jAA8uu1vrJy4MWh64CsW6gLtoPQ6TAbYCa6j3GPRdfzQyTAvlrw+x4p723Csw42Ina69/yvx4bT/f8bVBT2erQOngWImcd7AAznfbeqjGz430jsGTK94AF4Hvl2VLysBzQ3bbEp2i7/AIgPhNxGU6nSUkl1OulggtljagSlhd1cPnACHihXAcCS/fQV018iulQV6vBC/Ep9uPXamvblu4ZIIhtDIf/7Fsw8H8AohsuRN3Qwgfpy5pnfxoDR6Bxp3hSwZfJ2EOtJG17GPzrX7LcETDm3HEXympsfMOyqy1v10A9UnDMhbJhTGnyHw8aVoDg3wYKwObI6JGK1k9ean33j5HR0Y+JXtFJQT5/bQK8UK4ByxZ1Id1SK5X7uxZ1AViOOW/wBgPhTzbqj1MLOD5CAAAAAElFTkSuQmCC">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAE1klEQVRYhe2XXWxTZRjHf89pu3aMCTLYjQYuDFHMQgA1Csj3PhyGjaQ9JWNIAibgxS64UPmYkQkkYMIdGkOi7IKhcFj52HBznYJABILRKBKcGuOFoAQSDINt3dpzHi9Ot5XSY0qiiYk+SdOe9/n4/973vOc9T+G/bvIgwZZlFhjauxbRVUBZeviyiu6/devWvvXrv0r+YwBHjlSWOinagGc9Qi44+Gqi0c6bDwJg5BNkWaZPUxxLi19XYdVgMjBhMBmYgOpLwHXgOQP7WFNTU141h82fT5BIb70qs4Gb4pNZkXDX7xnullis6jNsLik6p2zaFyuBlnwB8qNVrXO/pTF8rzgA7pg2pmnr8hUHjxVoaal+KBi0lxrwOGCrMgvAp8ZJr0I2ctJAAZ6OHa58A/Ch9PiDoY7a2rY7eQO0WlUNYO9AGadZvqSRehT4OVchES119SlVZftIzmDiduuhisbIiu53c+bdK165A2hMX55R5ZQIpcAi4AngksO4Z6LRw0OZeZZl+gxunwbmAj3AKVVuiLAImO8Cyvaw2fWmJ0DsUMVcFTkLpARWhqPx1mFfe/uyMYMDg98AU0G3RaLdW7PANwE7gauDycD0+vqP/xipa1VGFD4E/Co8b5rxc5m5I5vQEdnggsquTHGAZcva+1XkZcAB2WxZFTNGxFvLZwJvASoqazLFAcLReKuI7ALEUNmQvQIjAAILAIyU7MsOAjDNrrMI7wABA2neu/epQHPzwhCOsR8oQNgTXtH1aa5cW7UZQNF52b7MTTgewD82cCNXEYD+AbaMCfEiMKPk4ZI+wAZCwPeO3tnklZdIcGNMaFQj0zLPgasAAwMDs7wKrV4d70PkYvoykBYHOBGNnh/wyisslOGaV70BRDrcAWOLau53hGWVT0Z1eQ6XefTowvtmB6CKiOpmV4OObP/oUxBbOkXt1HdAMfBeIBjaaBhqJweG5tuqVSJUAdM8JgmQAs4BnQ76iWl2f3vgQHVxKJh6G5VXgF6/TdnyuvivOQEAYlZFjSIWEAT6AB+jywxwG/QayJNZ87wCMhX3tgzbTWAsUAgkVDBNM34im/qed0E42t0mjsxJJxcBBQIXRWS7gzOvZNLQRIfxMxF2j8xA2BI2u8sSQ76JKkZYVN4HrgGTgEKF3xx0di5xyHEU24aKASXAkArLI2a8M0fea61W5asAYTO+0x3q7AWOpD+0HqqoQ2S/QKkYksglft8KABgiawBDVfeYucXzssiK7o+ADwC/2rImbwBUZ7ogximvpHybDkHa3B9uzfwA3I2HI9LnlVRWdmG4H+TowerHvAF0KC1SkD+A0OM6nAWehXXUZ4vtGefAYgCFH/IGMFQOAqDSYFnlk7P9x4/XFKtKwyiNNHR0VAez42KxpVOAdW4ptbwAcp54h62KE4K8CFwT5HW/7XzuhJL9qVRosaizFZgO/IR7XkwWOO+INt29mzxTVFRYLGIvEWU38AjQHonGa7wAcrZkBcHCuuRg4jiwSNEDSZ9AsgDBGeb+0UFfMAyCOMQVZotKV3FRAWCT7owQOO0Phuq9xMGjKa2tbbtz+cqcchVZC5wF+oEk8LWIbnTonRGNxn+JROI9iSFfGeg23PuccuP0S1TW2Yxb8lf94N9uD/qf4H/7V9ifhRHM9draaqEAAAAASUVORK5CYII=">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAACrklEQVRYhe2WzU4TURzFf3dmgJavjZHAC1QTcEfcICrWlCgkJgPWhEeQ+IELjG+AMQY/or4BCaU0GkVDkzZI2Kkra4I+gBCMGyrQj5l7XXQgtc60A3Zj0rObmTPnnPnf+//fgQaOiHgsouKxiPpXHa0eYf7rAIbbzUQifExa+hPNYMo0k1tHEU4kIl3SYlYz7JummfrpxXOtgLSNp8CEtEgnEpGuI5qngQlHyxPuAZR2C/gM9EqL94uLwz2HNE8BvcC6VPqdanxRQyjtCH1psuwwbW27hVz+uhDqMnDWoa4KoZaM5uALdnZai4a+b57RDMK1ltAzwN8hxDdQnUC3B30TxDaokF9zqNEFppncarLssGMecsxfStT53RztuznaldCGgFelZyoEfPVrDh5dUI6sbN4LYHc6l9Pj0eSDCsoKsLIwP3xXCDUDdOp6YM+POfiYA8EWexLny13MD3D12vJ94DXQU8znJusWQClGACTqUS2uUGIWQCBG/AY4WILac734qaZYoOVjMZ9Doc546Y1Hk39s/LqO4my2WLWr3HBQgcpk+4jHImvAgBCBfkobzhOtzXa/BARibSy6POgngJ8KvAEQSt6uRZQwBaBQS37MfQXIFfTnwCZwZWF++K4Xb3Ehcg8YBTaaWgLP/AaoOQc6tEKwiLENqlsINROPRQaEErO2yH8oCTSfljClFKPOK9u2nQsCWT8BDjuKOwDXg0nBd4H4VbdRXHEYZTRDDUoKIWAaWC2jrgLTisIJzVCDQAbokxYpP0e5awVisUvHNew00AesS4yhaPTtZjlnv88ru8d5NwWcAtaFLi6MjS1veAVwrYAm5GPHPKMZnKs0r4Zo9N0PzeAipUqcVJKH1fjuAXTrBjB3mFOtHKaZ3NIMwsCco1V/NH7LG2igXvgNvRgZCGBb/XAAAAAASUVORK5CYII=">
+                    </div>
+                    <div class="text_2">
+                        <p><span class="span">ЗАГОРОДОМ</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed omnis similique pariatur voluptates sit eaque asperiores ad. </p>
+                    </div>
+                    <div>
+                         <button class="btn_1">Забронировать домик<img class="image_2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABd0lEQVRYhe2Vvy9DURiG3zYhdGgiUrSjyWI1sVmMJqPEarEYJBaLf8IfYGUz6ICGWAjV+LEZDBKkojRNw2PwldOb2xrcczvou5yc7/vued5zzpdzpa66ikhAGpgHNoEz4BF4plkHvuCzwD2/6z34bSIC+JSkvKQeSfuStiQVJd1JqllZVlJBUj2RSPT+lRk0sGu7W2pTM2o11UjhtnjZFk+1qRmzmkowl4zAw4uNkwbrB8YDNX02liPgNQtYtd29AjvAnc0nnJoZix35MJAE1oGq0+1PwIBTs2zxjcgNGGAIKDkG8oH8nsXnfMGLBrgAKnYd00AKWLTcA5D2CS/afC3kAfoAFrzDLZ4EVoBbO4njyI8eyADnBr8ERiIFdOEdhwM5vv7pYfpuOJ/wqxZwfMOH+XnRToFBJwdAR+BxGWg0mKuC5TJxGDhsdedOQxa8GQgxVDdo42RKXhswxEDNOYVrIBsb3Ay8GfwGyMUKNwPbwElH4P9KnzCvvyPVZ6lNAAAAAElFTkSuQmCC"></button>
+                    </div>
+                </div>
+                <div class="div_4">
+                    <div>
+                        <div class="div_5">
+                            <img src="https://i.pinimg.com/564x/85/8a/01/858a01edea44823ea58069fdaea27d0b.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="div_6">
+                        <div>
+                            <img src="https://i.pinimg.com/564x/99/45/72/994572cbad2b2271f71a6f50ed46c898.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://i.pinimg.com/564x/95/f9/3f/95f93fa78a206648016f8802b7054437.jpg" alt="">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section class="section_2">
+            <div class="box-flex_1">
+                <div class="div_7">
+                    <h2>Все самое нужное <span class="span">под рукой</span></h2>
+                </div>
+                <div class="div_8">
+                    <p>Все в лучших традициях гостевых домов <span class="span">ЗАГОРОДОМ</span></p>
+                    <p>Гармоничное сочитание городского комфорта и природы для Вашего комфорта</p>
+                </div>
+            </div>
+        </section>
+        <section class="select_2">
+            <div class="box-flex_1">
+                <div>
+                    <img src="data:image/png;base64,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">
+                </div>
+                <div>
+                    <img src="data:image/png;base64,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">
+                </div>
+            </div>
+            <div class="box-flex_2">
+                <div>
+                    <div class="box-flex_2_2">
+                        <h3>Все лучшее - для Вас</h3>
+                        <p>Все услуги взодят в стоимость проживания для всех гостей</p>
+                   </div>
+                   <img src="https://i.pinimg.com/564x/63/e3/9c/63e39c80c6a153bba5cd2ecbc9dcc50d.jpg" alt="">
+                </div>
+                <div class="div_9">
+                    <div class="box-flex_2_3">
+                        <h3>Басейны 2х типов</h3>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/05/77/f1/0577f1fdbac955f2e0cef379fe209b34.jpg" alt="">
+                </div>
+                <div class="div_10">
+                    <div class="box-flex_2_4">
+                        <h3>Походы в горы</h3>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/cb/28/d0/cb28d09d9654311aafeb13d5397f77ce.jpg" alt="">
+                </div>
+                <div class="div_11">
+                    <div class="box-flex_2_5">
+                        <h3>Рестораны и бары</h3>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/a7/bb/a2/a7bba209fa59e0095284f4145a56413c.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="box-flex_3">
+                <div class="div_12">
+                    <div class="div_13">
+                        <h3>Остались <span class="span">вопросы?</span></h3>
+                    </div>
+                    <div class="div_14">
+                        <p>Телефон</p>
+                        <p class="span">+000000</p>
+                    </div>
+                    <div class="div_15">
+                        <p>Почта</p>
+                        <p class="span">000@gmail.com</p>
+                    </div>
+                </div>
+                <div class="div_16">
+                    <div>
+                        <h3>Заполните форму</h3>
+                    </div>
+                    <div>
+                        <p>Мы перезвоним Вам через 5 минут и проконсультируем</p>
+                    </div>
+                    <div>
+                        <form>
+                            <input class="input_1" type="text" placeholder="Ваше Имя">
+                        </form>
+                        <form>
+                            <input class="input_2" type="text" placeholder="+000000">
+                        </form>
+                        <button class="btn_2">Забронировать домик<img class="image_2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABI0lEQVQ4jcWRvUoDURCFv7m7ihaKhVoIFvEhrMQoMVEbwTXZkNb3sLT0NcTcTbDVQIyvoI2tpI+gjQnu3rFJ/I+7heCpLsz5Dmfmwn9L0gzW7i6IJkciWgDJAdNArxy25gFMWoAhqYuoYOTQ+Mmyl5gcMPc+T9eqY+K43/fugqDdM/ryDAxGQz+d1xNDfDs1yay120sDZMXgupkbqHid4fPJ99UXdTVE2pkaRNHOhqirq5jQ4PIu5l6EG6fe/sgz9hes3VozmKaBWhC2rsb5fgzICn9aIYqKBVE5B2YAVMxmULm4/g2G4RGb9dK6qJyqmL1y2BKASgb4LUCFM2BR1DWsLeaBxywwfLlBw5Zi4EFUqgfVy84Y5nuDD+qqaC0r/Cd6BU5iYT38VRZsAAAAAElFTkSuQmCC"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex-master">
+            <div>
+                <img class="image_1" src="./logo.jpg" alt="No Picture">
+            </div>
+            <div class="div_17">
+                <p>Политика Конфиденциальности</p>
+            </div>
+            <div class="div_18">
+                <p>+0000000</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
